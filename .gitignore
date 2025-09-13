@@ -1,0 +1,21 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Ignore virtual environments
+.env/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Ignore model artifacts
+*.joblib
+*.pkl
+*.h5
